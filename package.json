@@ -3,7 +3,11 @@
     "cypress:open": "npx cypress open"
   },
   "devDependencies": {
+    "add": "^2.0.6",
     "cypress": "^4.2.0",
-    "cypress-image-snapshot": "^3.1.1"
+    "cypress-image-snapshot": "^3.1.1",
+    "mocha": "^7.1.1",
+    "mochawesome": "^5.0.0",
+    "yarn": "^1.22.4"
   }
 }

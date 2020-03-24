@@ -1,3 +1,9 @@
 {
-  "baseUrl": "https://ebazhanov.netlify.com/"
+  "baseUrl": "https://ebazhanov.netlify.com/",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
 }
