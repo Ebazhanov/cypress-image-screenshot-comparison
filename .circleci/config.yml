@@ -22,6 +22,6 @@ jobs:
           paths:
             - ~/.cache  ## cache both yarn and Cypress!
       - run: npx cypress run
-      - run: npx mochawesome-report-generator -o cypress/results mochawesome.json
-      #- store_artifacts: 'cypress/results'
+      # - run: npx mochawesome-report-generator -o cypress/results mochawesome.json
+      - store_artifacts: 'cypress/results'
       #- store_test_results: 'cypress/results'
