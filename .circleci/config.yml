@@ -22,11 +22,10 @@ jobs:
           paths:
             - ~/.cache  ## cache both yarn and Cypress!
       - run: npx cypress run
-      - &generate_mochawesome_html_report
-        name: Generate mochawesome html report
-        when: always # generate html report even one of the test is failed
-        command: npx mochawesome-report-generator -o mochawesome-report/ cypress/results/
-      - run: *generate_mochawesome_html_report
+      - run:
+          name: Generate mochawesome html report
+          when: always
+          command: npx mochawesome-report-generator -o mochawesome-report/ cypress/results/
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:
