@@ -7,4 +7,3 @@ This repo an example of how to use visual regression (screenshot comparison) + c
 
 #### TODO for the next Friday
 - add mochawesome html report with attached screenshots
-- run tests using github `Actions` feature
