@@ -24,7 +24,10 @@ jobs:
       - run: npx cypress run
       # - run: npx mochawesome-report-generator -o cypress/results mochawesome.json
       - store_artifacts:
+          path: cypress/videos
+      - store_artifacts:
+          path: cypress/screenshots
+      - store_test_results:
           path: cypress/results
-          destination: results
       # - store_artifacts: 'cypress/results'
       #- store_test_results: 'cypress/results'
