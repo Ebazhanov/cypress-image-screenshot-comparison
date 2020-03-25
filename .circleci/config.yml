@@ -22,7 +22,7 @@ jobs:
           paths:
             - ~/.cache  ## cache both yarn and Cypress!
       - run: npx cypress run
-      - run: npx mochawesome-report-generator -o cypress/results/
+      - run: npx mochawesome-report-generator -o mochawesome-report/ cypress/results/
       - store_artifacts:
           path: cypress/videos
       - store_artifacts:
