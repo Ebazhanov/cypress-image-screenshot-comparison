@@ -1,7 +1,8 @@
 {
   "baseUrl": "https://ebazhanov.netlify.com/",
   "reporter": "mochawesome",
-  "reporterOptions": {
+  "reporterOptions":{
+    "reportDir": "cypress/results",
     "overwrite": false,
     "html": false,
     "json": true
