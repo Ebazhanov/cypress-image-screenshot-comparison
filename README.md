@@ -1,7 +1,7 @@
 # Cypress visual regression example (screenshot comparison)
-> "cypress-image-snapshot": "^3.1.1"
 
-#### CircleCI [![CircleCI](https://circleci.com/gh/Ebazhanov/cypress-visual-regression-example.svg?style=svg)](https://circleci.com/gh/Ebazhanov/cypress-visual-regression-example)
+[![Ashot](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/palmerhq/cypress-image-snapshot)
+> "cypress-image-snapshot": "^3.1.1"
 
 This repo an example of how to use visual regression (screenshot comparison) + cypress
 
@@ -21,6 +21,7 @@ addMatchImageSnapshotCommand({
 });
 ```
 
-### An example of screenshot diff [here in circleci job](https://20-248710227-gh.circle-artifacts.com/0/cypress/snapshots/failed.test.js/__diff_output__/Visual%20regression%20tests%20--%20should.diff.png)
+## CircleCI [![CircleCI](https://circleci.com/gh/Ebazhanov/cypress-visual-regression-example.svg?style=svg)](https://circleci.com/gh/Ebazhanov/cypress-visual-regression-example)
+#### An example of screenshot diff [here in circleci job](https://20-248710227-gh.circle-artifacts.com/0/cypress/snapshots/failed.test.js/__diff_output__/Visual%20regression%20tests%20--%20should.diff.png)
 
 <img src="https://monosnap.com/image/d9HHOwwOPESPmnhhz8XMNQtcXHV1fe"/>
