@@ -8,10 +8,11 @@ This repo an example of how to use visual regression (screenshot comparison) + c
 ![diff-example.png](diff-example.png)
 
 #### TODO
-- [x] integrate with circle
+- [x] integrate with Circle
 - [x] add mochawesome html
-- [ ] add failed screenshot to mochawesome html
+    - [ ] add failed screenshot to mochawesome html
 - [ ] play with `Threshold`
+- [ ] make full screenshot
 ```javascript
 addMatchImageSnapshotCommand({
   failureThreshold: 0.03, // threshold for entire image
