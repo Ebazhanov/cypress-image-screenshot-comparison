@@ -21,6 +21,6 @@ addMatchImageSnapshotCommand({
 });
 ```
 
-### An example of screenshot diff [circleci job](https://20-248710227-gh.circle-artifacts.com/0/cypress/snapshots/failed.test.js/__diff_output__/Visual%20regression%20tests%20--%20should.diff.png)
+### An example of screenshot diff [here in circleci job](https://20-248710227-gh.circle-artifacts.com/0/cypress/snapshots/failed.test.js/__diff_output__/Visual%20regression%20tests%20--%20should.diff.png)
 
 <img src="https://monosnap.com/image/d9HHOwwOPESPmnhhz8XMNQtcXHV1fe"/>
