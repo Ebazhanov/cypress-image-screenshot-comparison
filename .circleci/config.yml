@@ -31,6 +31,8 @@ jobs:
       - store_artifacts:
           path: cypress/screenshots
       - store_artifacts:
+          path: cypress/snapshots
+      - store_artifacts:
           path: mochawesome-report
       - store_test_results:
           path: cypress/results

@@ -3,6 +3,10 @@
 
 #### CircleCI [![CircleCI](https://circleci.com/gh/Ebazhanov/cypress-visual-regression-example.svg?style=svg)](https://circleci.com/gh/Ebazhanov/cypress-visual-regression-example)
 
+en example of failed screenshot here in circleci
+
+
+
 This repo an example of how to use visual regression (screenshot comparison) + cypress
 
 ![diff-example.png](diff-example.png)
