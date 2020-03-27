@@ -9,9 +9,9 @@ This repo an example of how to use visual regression (screenshot comparison) + c
 #### TODO
 - [x] integrate with Circle
 - [x] add mochawesome html
-    - [ ] add failed screenshot to mochawesome html
-- [ ] play with `Threshold`
-- [ ] make full screenshot
+    - [ ] add failed screenshot to mochawesome html report
+- [ ] play with `Threshold` to make tests stable in circleic
+- [ ] find the way of making full screenshot
 ```javascript
 addMatchImageSnapshotCommand({
   failureThreshold: 0.03, // threshold for entire image
