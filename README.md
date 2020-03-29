@@ -7,7 +7,7 @@ This repo an example of how to use visual regression (screenshot comparison) + c
 ![diff-example.png](diff-example.png)
 
 #### TODO
-- [x] integrate with Circle
+- [x] integrate with CircleCI
 - [x] add mochawesome html
     - [ ] add failed screenshot to mochawesome html report
 - [ ] play with `Threshold` to make tests stable in circleic
