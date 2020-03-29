@@ -1,8 +1,9 @@
 # Cypress visual regression example (screenshot comparison)
+> This repo an example of how to use Cypress Image Snapshot plugin
 
 [![NPM][npm-icon]][npm-url]
 
-This repo an example of how to use visual regression (screenshot comparison) + cypress
+## Image Diff
 
 ![diff-example.png](diff-example.png)
 
