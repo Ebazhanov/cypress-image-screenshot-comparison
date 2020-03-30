@@ -7,6 +7,10 @@
 
 ![diff-example.png](diff-example.png)
 
+## Mochawesome report
+
+- link 
+
 #### TODO
 - [x] integrate with CircleCI
 - [x] add mochawesome html
