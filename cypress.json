@@ -1,5 +1,7 @@
 {
   "baseUrl": "https://ebazhanov.netlify.com/",
+  "viewportWidth": 1000,
+  "viewportHeight": 660,
   "reporter": "mochawesome",
   "reporterOptions":{
     "reportDir": "cypress/results",
